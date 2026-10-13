@@ -69,7 +69,7 @@ Open-Meteo's free API is for non-commercial use. See https://open-meteo.com/en/t
 omarchy plugin remove io.github.tagrest.weather
 ```
 
-This takes the widget off the bar and moves the plugin folder to a hidden backup named `.io.github.tagrest.weather.bak.<timestamp>` in `~/.config/omarchy/plugins/`. Delete that folder to remove the plugin completely. Your saved location is kept.
+This takes the widget off the bar and deletes its folder from `~/.config/omarchy/plugins/`. Your saved location is kept.
 
 ## Tests
 
