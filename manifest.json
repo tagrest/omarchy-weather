@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.tagrest.weather",
+  "name": "Weather Pill",
+  "version": "1.0.0",
+  "author": "tagrest",
+  "license": "MIT",
+  "description": "Current conditions in the Omarchy bar, with a three-day forecast popup.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Weather Pill",
+    "description": "Current conditions in the Omarchy bar, with a three-day forecast popup.",
+    "category": "Info",
+    "allowMultiple": false
+  }
+}
